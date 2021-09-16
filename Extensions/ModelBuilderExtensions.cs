@@ -767,7 +767,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 66,
+                    Id = 67,
                     Title = "Our Planet",
                     Overview = "Documentary series focusing on the breadth of the diversity of habitats around the world, from the remote Arctic wilderness and mysterious deep oceans to the vast landscapes of Africa and diverse jungles of South America.",
                     PosterPath = "https://www.penguin.co.uk/content/dam/prh/books/111/1115210/9780593079768.jpg.transform/PRHDesktopWide_small/image.jpg",
@@ -776,7 +776,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 67,
+                    Id = 68,
                     Title = "Cosmos: A Spacetime Odyssey",
                     Overview = "An exploration of our discovery of the laws of nature and coordinates in space and time.",
                     PosterPath = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5945/5945188_sa.jpg;maxHeight=640;maxWidth=550",
@@ -785,7 +785,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 68,
+                    Id = 69,
                     Title = "Avatar: The Last Airbender",
                     Overview = "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
                     PosterPath = "https://images-na.ssl-images-amazon.com/images/I/914eUC4XPML.jpg",
@@ -794,7 +794,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 69,
+                    Id = 70,
                     Title = "Cosmos",
                     Overview = "Astronomer Carl Sagan leads us on an engaging guided tour of the various elements and cosmological theories of the universe.",
                     PosterPath = "https://www.themoviedb.org/t/p/original/4WJ9kNejI8apl3f8hMNwo8V3hGT.jpg",
@@ -803,7 +803,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 70,
+                    Id = 71,
                     Title = "Game of Thrones",
                     Overview = "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
                     PosterPath = "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_FMjpg_UX1000_.jpg",
@@ -812,7 +812,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 71,
+                    Id = 72,
                     Title = "The Sopranos",
                     Overview = "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling.",
                     PosterPath = "https://m.media-amazon.com/images/M/MV5BZGJjYzhjYTYtMDBjYy00OWU1LTg5OTYtNmYwOTZmZjE3ZDdhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
@@ -823,7 +823,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
 
                 new Movie
                 {
-                    Id = 72,
+                    Id = 73,
                     Title = "The Dark Knight 2",
                     Overview = "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
                     PosterPath = "https://upload.wikimedia.org/wikipedia/sh/8/83/Dark_knight_rises_poster.jpg",
@@ -832,7 +832,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 73,
+                    Id = 74,
                     Title = "Schindler's List 2",
                     Overview = "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
                     PosterPath = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c617e634647543.56d846b10d56f.jpg",
@@ -841,7 +841,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 74,
+                    Id = 75,
                     Title = "The Lord of the Rings: The Return of the King 2",
                     Overview = "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
                     PosterPath = "https://img.discogs.com/MsgjJVAxVCXb1w86ffIbaNRr2BY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-728620-1512923411-4779.jpeg.jpg",
@@ -850,7 +850,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 75,
+                    Id = 76,
                     Title = "Pulp Fiction 2",
                     Overview = "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
                     PosterPath = "https://prod.miramax.digital/media/assets/Pulp-Fiction1.png",
@@ -859,7 +859,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 76,
+                    Id = 77,
                     Title = "The Good, the Bad and the Ugly 2",
                     Overview = "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
                     PosterPath = "https://upload.wikimedia.org/wikipedia/en/4/45/Good_the_bad_and_the_ugly_poster.jpg",
@@ -868,7 +868,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 77,
+                    Id = 78,
                     Title = "The Lord of the Rings: The Fellowship of the Ring 2",
                     Overview = "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
                     PosterPath = "https://images.moviesanywhere.com/198e228b071c60f5ad57e5f62fe60029/ff22cad6-2218-414d-b853-3f95d76905c7.jpg?h=375&resize=fit&w=250",
@@ -877,7 +877,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 78,
+                    Id = 79,
                     Title = "Fight Club 2",
                     Overview = "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
                     PosterPath = "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
@@ -886,7 +886,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 79,
+                    Id = 80,
                     Title = "Forrest Gump 2",
                     Overview = "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
                     PosterPath = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/37a5b434647543.56d846b10ca45.jpg",
@@ -895,7 +895,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 80,
+                    Id = 81,
                     Title = "Inception 2",
                     Overview = "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
                     PosterPath = "https://m.media-amazon.com/images/I/81p+xe8cbnL._SY445_.jpg",
@@ -905,7 +905,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 //
                 new Movie
                 {
-                    Id = 81,
+                    Id = 82,
                     Title = "The Shawshank Redemption 3",
                     Overview = "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
                     PosterPath = "https://swank.azureedge.net/swank/prod-film/3560cd8a-9491-4ab9-876c-8a8d6b84a6dd/f8e7c904-669a-4c9f-ac29-d19b64b43e33/one-sheet.jpg?width=335&height=508&mode=crop",
@@ -914,7 +914,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 82,
+                    Id = 83,
                     Title = "The Godfather 3",
                     Overview = "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
                     PosterPath = "https://www.reelviews.net/resources/img/posters/thumbs/godfather_poster.jpg",
@@ -923,7 +923,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 83,
+                    Id = 84,
                     Title = "The Godfather: Part II 3",
                     Overview = "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
                     PosterPath = "https://shotonwhat.com/images/0071562-med.jpg",
@@ -932,7 +932,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 84,
+                    Id = 85,
                     Title = "The Dark Knight 3",
                     Overview = "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
                     PosterPath = "https://upload.wikimedia.org/wikipedia/sh/8/83/Dark_knight_rises_poster.jpg",
@@ -941,7 +941,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 85,
+                    Id = 86,
                     Title = "12 Angry Men 3",
                     Overview = "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
                     PosterPath = "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
@@ -950,7 +950,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 86,
+                    Id = 87,
                     Title = "Schindler's List 3",
                     Overview = "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
                     PosterPath = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c617e634647543.56d846b10d56f.jpg",
@@ -959,7 +959,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 87,
+                    Id = 88,
                     Title = "The Lord of the Rings: The Return of the King 3",
                     Overview = "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
                     PosterPath = "https://img.discogs.com/MsgjJVAxVCXb1w86ffIbaNRr2BY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-728620-1512923411-4779.jpeg.jpg",
@@ -968,7 +968,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 88,
+                    Id = 89,
                     Title = "Pulp Fiction 3",
                     Overview = "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
                     PosterPath = "https://prod.miramax.digital/media/assets/Pulp-Fiction1.png",
@@ -977,7 +977,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 89,
+                    Id = 90,
                     Title = "The Good, the Bad and the Ugly 3",
                     Overview = "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
                     PosterPath = "https://upload.wikimedia.org/wikipedia/en/4/45/Good_the_bad_and_the_ugly_poster.jpg",
@@ -986,7 +986,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 90,
+                    Id = 91,
                     Title = "The Lord of the Rings: The Fellowship of the Ring 3",
                     Overview = "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
                     PosterPath = "https://images.moviesanywhere.com/198e228b071c60f5ad57e5f62fe60029/ff22cad6-2218-414d-b853-3f95d76905c7.jpg?h=375&resize=fit&w=250",
@@ -995,7 +995,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 91,
+                    Id = 92,
                     Title = "Fight Club 3",
                     Overview = "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
                     PosterPath = "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
@@ -1004,7 +1004,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 92,
+                    Id = 93,
                     Title = "Forrest Gump 3",
                     Overview = "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
                     PosterPath = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/37a5b434647543.56d846b10ca45.jpg",
@@ -1013,7 +1013,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 93,
+                    Id = 94,
                     Title = "Inception 3",
                     Overview = "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
                     PosterPath = "https://m.media-amazon.com/images/I/81p+xe8cbnL._SY445_.jpg",
@@ -1023,7 +1023,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 //
                 new Movie
                 {
-                    Id = 94,
+                    Id = 95,
                     Title = "The Shawshank Redemption 4",
                     Overview = "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
                     PosterPath = "https://swank.azureedge.net/swank/prod-film/3560cd8a-9491-4ab9-876c-8a8d6b84a6dd/f8e7c904-669a-4c9f-ac29-d19b64b43e33/one-sheet.jpg?width=335&height=508&mode=crop",
@@ -1032,7 +1032,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 95,
+                    Id = 96,
                     Title = "The Godfather 4",
                     Overview = "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
                     PosterPath = "https://www.reelviews.net/resources/img/posters/thumbs/godfather_poster.jpg",
@@ -1041,7 +1041,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 96,
+                    Id = 97,
                     Title = "The Godfather: Part II 4",
                     Overview = "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
                     PosterPath = "https://shotonwhat.com/images/0071562-med.jpg",
@@ -1050,7 +1050,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 97,
+                    Id = 98,
                     Title = "The Dark Knight 4",
                     Overview = "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
                     PosterPath = "https://upload.wikimedia.org/wikipedia/sh/8/83/Dark_knight_rises_poster.jpg",
@@ -1059,7 +1059,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 98,
+                    Id = 99,
                     Title = "12 Angry Men 4",
                     Overview = "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
                     PosterPath = "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
@@ -1068,7 +1068,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 99,
+                    Id = 100,
                     Title = "Schindler's List 4",
                     Overview = "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
                     PosterPath = "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c617e634647543.56d846b10d56f.jpg",
@@ -1077,7 +1077,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 },
                 new Movie
                 {
-                    Id = 100,
+                    Id = 101,
                     Title = "The Lord of the Rings: The Return of the King 4",
                     Overview = "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
                     PosterPath = "https://img.discogs.com/MsgjJVAxVCXb1w86ffIbaNRr2BY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-728620-1512923411-4779.jpeg.jpg",
@@ -1209,6 +1209,122 @@ namespace JAP_Task_1_MoviesApi.Extensions
                 new Rating { Id = 99, Value = 4.2, MovieId = 99, UserId = 1 },
                 new Rating { Id = 100, Value = 4.1, MovieId = 100, UserId = 1 }
 
+            );
+            #endregion
+
+            #region Screenings, duration is in minutes
+            modelBuilder.Entity<Screening>().HasData(
+                new Screening { Id = 1, Name = "Screening 1", MovieId = 1, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30) },
+                new Screening { Id = 2, Name = "Screening 2", MovieId = 2, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20) },
+                new Screening { Id = 3, Name = "Screening 3", MovieId = 3, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10) },
+                new Screening { Id = 4, Name = "Screening 4", MovieId = 4, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 5, Name = "Screening 5", MovieId = 5, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 6, Name = "Screening 6", MovieId = 6, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 7, Name = "Screening 7", MovieId = 7, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 8, Name = "Screening 8", MovieId = 8, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 9, Name = "Screening 9", MovieId = 9,  SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1) },
+                new Screening { Id = 10, Name = "Screening 10", MovieId = 10, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 11, Name = "Screening 11", MovieId = 11, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10) },
+                new Screening { Id = 12, Name = "Screening 12", MovieId = 12, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+                new Screening { Id = 13, Name = "Screening 13", MovieId = 13, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 14, Name = "Screening 14", MovieId = 14, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20)},
+                new Screening { Id = 15, Name = "Screening 15", MovieId = 15, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10)},
+                new Screening { Id = 16, Name = "Screening 16", MovieId = 16, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 17, Name = "Screening 17", MovieId = 17, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 18, Name = "Screening 18", MovieId = 18, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 19, Name = "Screening 19", MovieId = 19, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30) },
+                new Screening { Id = 20, Name = "Screening 20", MovieId = 20, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 21, Name = "Screening 21", MovieId = 21, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 22, Name = "Screening 22", MovieId = 22, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 23, Name = "Screening 23", MovieId = 23, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 24, Name = "Screening 24", MovieId = 24, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+
+                new Screening { Id = 25, Name = "Screening 25", MovieId = 25, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 26, Name = "Screening 26", MovieId = 26, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20)},
+                new Screening { Id = 27, Name = "Screening 27", MovieId = 27, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10)},
+                new Screening { Id = 28, Name = "Screening 28", MovieId = 28, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 29, Name = "Screening 29", MovieId = 29, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 30, Name = "Screening 30", MovieId = 30, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 31, Name = "Screening 31", MovieId = 31, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 32, Name = "Screening 32", MovieId = 32, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 33, Name = "Screening 33", MovieId = 33, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 34, Name = "Screening 34", MovieId = 34, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 35, Name = "Screening 35", MovieId = 35, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 36, Name = "Screening 36", MovieId = 36, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+                new Screening { Id = 37, Name = "Screening 37", MovieId = 37, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 38, Name = "Screening 38", MovieId = 38, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20)},
+                new Screening { Id = 39, Name = "Screening 39", MovieId = 39, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10)},
+                new Screening { Id = 40, Name = "Screening 40", MovieId = 40, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 41, Name = "Screening 41", MovieId = 41, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 42, Name = "Screening 42", MovieId = 42, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 43, Name = "Screening 43", MovieId = 43, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 44, Name = "Screening 44", MovieId = 44, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 45, Name = "Screening 45", MovieId = 45,  SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 46, Name = "Screening 46", MovieId = 46,  SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 47, Name = "Screening 47", MovieId = 47, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 48, Name = "Screening 48", MovieId = 48, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+
+                new Screening { Id = 49, Name = "Screening 49", MovieId = 49, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 50, Name = "Screening 50", MovieId = 50, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20)},
+                new Screening { Id = 51, Name = "Screening 51", MovieId = 51, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10)},
+                new Screening { Id = 52, Name = "Screening 52", MovieId = 52, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 53, Name = "Screening 53", MovieId = 53, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 54, Name = "Screening 54", MovieId = 54, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 55, Name = "Screening 55", MovieId = 55, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 56, Name = "Screening 56", MovieId = 56, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 57, Name = "Screening 57", MovieId = 57, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 58, Name = "Screening 58", MovieId = 58, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 59, Name = "Screening 59", MovieId = 59, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 60, Name = "Screening 60", MovieId = 60, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+                new Screening { Id = 61, Name = "Screening 61", MovieId = 61, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 62, Name = "Screening 62", MovieId = 62, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20)},
+                new Screening { Id = 63, Name = "Screening 63", MovieId = 63, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10)},
+                new Screening { Id = 64, Name = "Screening 64", MovieId = 64, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 65, Name = "Screening 65", MovieId = 65, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 66, Name = "Screening 66", MovieId = 66, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 67, Name = "Screening 67", MovieId = 67, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 68, Name = "Screening 68", MovieId = 68, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 69, Name = "Screening 69", MovieId = 69, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 70, Name = "Screening 70", MovieId = 70, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 71, Name = "Screening 71", MovieId = 71, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 72, Name = "Screening 72", MovieId = 72, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+
+                new Screening { Id = 73, Name = "Screening 73", MovieId = 73, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 74, Name = "Screening 74", MovieId = 74, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20)},
+                new Screening { Id = 75, Name = "Screening 75", MovieId = 75, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10)},
+                new Screening { Id = 76, Name = "Screening 76", MovieId = 76, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 77, Name = "Screening 77", MovieId = 77, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 78, Name = "Screening 78", MovieId = 78, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 79, Name = "Screening 79", MovieId = 79, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 80, Name = "Screening 80", MovieId = 80, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 81, Name = "Screening 81", MovieId = 81, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 82, Name = "Screening 82", MovieId = 82, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 83, Name = "Screening 83", MovieId = 83, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 84, Name = "Screening 84", MovieId = 84, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+                new Screening { Id = 85, Name = "Screening 85", MovieId = 85, SoldTickets = 7, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 86, Name = "Screening 86", MovieId = 86, SoldTickets = 6, ScreeningDate = DateTime.Now.AddDays(20)},
+                new Screening { Id = 87, Name = "Screening 87", MovieId = 87, SoldTickets = 5, ScreeningDate = DateTime.Now.AddDays(10)},
+                new Screening { Id = 88, Name = "Screening 88", MovieId = 88, SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(5)},
+                new Screening { Id = 89, Name = "Screening 89", MovieId = 89, SoldTickets = 3, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 90, Name = "Screening 90", MovieId = 90, SoldTickets = 2, ScreeningDate = new DateTime(2015, 10, 10)},
+                new Screening { Id = 91, Name = "Screening 91", MovieId = 91, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(30)},
+                new Screening { Id = 92, Name = "Screening 92", MovieId = 92, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(29)},
+                new Screening { Id = 93, Name = "Screening 93", MovieId = 93, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 94, Name = "Screening 94", MovieId = 94,  SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 95, Name = "Screening 95", MovieId = 95, SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 96, Name = "Screening 96", MovieId = 96, SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+
+                new Screening { Id = 97, Name = "Screening 97", MovieId = 97, SoldTickets = 2, ScreeningDate = DateTime.Now.AddDays(1)},
+                new Screening { Id = 98, Name = "Screening 98", MovieId = 98,  SoldTickets = 4, ScreeningDate = DateTime.Now.AddDays(21)},
+                new Screening { Id = 99, Name = "Screening 99", MovieId = 99,  SoldTickets = 4, ScreeningDate = new DateTime(2010, 11, 10)},
+                new Screening { Id = 100, Name = "Screening 100", MovieId = 100,  SoldTickets = 21, ScreeningDate = new DateTime(2012, 1, 1)},
+                new Screening { Id = 101, Name = "Screening 101", MovieId = 100, SoldTickets = 21, ScreeningDate = new DateTime(2025, 1, 1, 0, 0, 0, 0)},
+                new Screening { Id = 102, Name = "Screening 102", MovieId = 100, SoldTickets = 21, ScreeningDate = new DateTime(2025, 1, 1, 0, 0, 0, 0)},
+                new Screening { Id = 103, Name = "Screening 103", MovieId = 100, SoldTickets = 21, ScreeningDate = new DateTime(2025, 1, 1, 0, 0, 0, 0)},
+
+                new Screening { Id = 104, Name = "Screening 104", MovieId = 101, SoldTickets = 22, ScreeningDate = new DateTime(2015, 1, 1, 0, 0, 0, 0)},
+                new Screening { Id = 105, Name = "Screening 105", MovieId = 101, SoldTickets = 21, ScreeningDate = new DateTime(2021, 1, 1, 0, 0, 0, 0)},
+                new Screening { Id = 106, Name = "Screening 106", MovieId = 101, SoldTickets = 11, ScreeningDate = new DateTime(2022, 1, 1, 0, 0, 0, 0)}
             );
             #endregion
         }

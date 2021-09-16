@@ -16,10 +16,18 @@ namespace JAP_Task_1_MoviesApi.Data
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<Screening> Screenings { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<MostRatedMoviesReport> MostRatedMoviesReports { get; set; }
+        public DbSet<MoviesWithMostScreeningsReport> MoviesWithMostScreeningsReports { get; set; }
+        public DbSet<MoviesWithMostSoldTicketsReport> MoviesWithMostSoldTicketsReports { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Seed();
+            modelBuilder.Entity<MostRatedMoviesReport>().HasNoKey();
+
+            modelBuilder.Entity<MoviesWithMostScreeningsReport>().HasNoKey();
+
+            modelBuilder.Entity<MoviesWithMostSoldTicketsReport>().HasNoKey();
         }
     }
 }
