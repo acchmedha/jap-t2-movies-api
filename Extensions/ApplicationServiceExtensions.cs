@@ -3,6 +3,7 @@ using JAP_Task_1_MoviesApi.Helpers;
 using JAP_Task_1_MoviesApi.Services.AuthService;
 using JAP_Task_1_MoviesApi.Services.MovieService;
 using JAP_Task_1_MoviesApi.Services.RatingService;
+using JAP_Task_1_MoviesApi.Services.ReportsService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +19,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
             services.AddScoped<IMovieService, MovieRepository>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IRatingService, RatingService>();
+            services.AddScoped<IReportsService, ReportsService>();
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddDbContext<ApplicationDbContext>(options =>
