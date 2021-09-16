@@ -915,6 +915,44 @@ namespace JAP_Task_1_MoviesApi.Migrations
                 name: "IX_Tickets_UserId",
                 table: "Tickets",
                 column: "UserId");
+
+            string getTop10MoviesWithMostRatings = @"CREATE PROCEDURE getTop10MoviesWithMostRatings
+                                                     AS
+                                                     BEGIN
+	                                                    SELECT TOP(10) m.Id as MovieId, m.Title as MovieName, COUNT(r.Value) AS NumberOfRatings, AVG(r.Value) AS AverageRating
+                                                        FROM Movies m, Ratings r
+                                                        WHERE m.Id = r.MovieId AND TYPE = 0
+                                                        GROUP BY m.Id, m.Title
+                                                        ORDER BY AVG(r.Value) DESC
+                                                     END;";
+            string getTop10MoviesWithMostScreenings = @"CREATE PROCEDURE getTop10MoviesWithMostScreenings
+                                                        @start_date Date,
+                                                        @end_date Date
+                                                        AS
+                                                        BEGIN
+	                                                        SELECT TOP(10) m.Id as MovieId, m.Title as MovieName, COUNT(s.Id) AS NumberOfScreenings
+                                                            FROM Movies m, Screenings s
+                                                            WHERE m.Id = s.MovieId AND m.Type = 0
+                                                            AND s.ScreeningDate BETWEEN @start_date AND @end_date
+                                                            GROUP BY m.Id, m.Title, s.Name
+                                                            ORDER BY COUNT(s.Id) DESC
+                                                        END;";
+
+            string getMoviesWithMostSoldTicketsNoRating = @"CREATE PROCEDURE getMoviesWithMostSoldTicketsNoRating
+                                                            AS
+                                                            BEGIN
+	                                                            SELECT m.Id as MovieId, m.Title as MovieName, s.Name as ScreeningName, s.SoldTickets as SoldTickets
+                                                                FROM Movies m, Screenings s
+                                                                WHERE (SELECT COUNT(*) 
+	                                                                FROM Ratings r 
+	                                                                WHERE r.MovieId = m.Id) = 0 
+                                                                AND m.Id = s.MovieId
+                                                                ORDER BY s.SoldTickets DESC
+                                                            END;";
+
+            migrationBuilder.Sql(getTop10MoviesWithMostRatings);
+            migrationBuilder.Sql(getTop10MoviesWithMostScreenings);
+            migrationBuilder.Sql(getMoviesWithMostSoldTicketsNoRating);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
