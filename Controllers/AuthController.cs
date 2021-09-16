@@ -33,7 +33,7 @@ namespace JAP_Task_1_MoviesApi.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDataDto loginData)
         {
-            var response = await _authService.Login(loginData);
+            var response = await _authService.Login(loginData.Username, loginData.Password);
 
             return (response.Success) ? Ok(response) : BadRequest(response);
         }

@@ -18,20 +18,21 @@ namespace JAP_Task_1_MoviesApi.Services.AuthService
 
         private readonly SymmetricSecurityKey _key;
         private readonly ApplicationDbContext _context;
+        private readonly IConfiguration _config;
         public AuthService(ApplicationDbContext context, IConfiguration config)
         {
-            _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
             _context = context;
+            _config = config;
         }
 
-        public async Task<ServiceResponse<LoginDto>> Login(LoginDataDto loginData)
+        public async Task<ServiceResponse<LoginDto>> Login(string username, string password)
         {
             ServiceResponse<LoginDto> response = new();
             User user = null;
 
             try
             {
-                user = await _context.Users.FirstOrDefaultAsync(x => x.Username == loginData.Username);
+                user = await _context.Users.FirstOrDefaultAsync(x => x.Username == username);
             }
             catch (Exception)
             {
@@ -45,7 +46,7 @@ namespace JAP_Task_1_MoviesApi.Services.AuthService
                 response.Success = false;
                 response.Message = "User not found.";
             }
-            else if (!VerifyPasswordHash(loginData.Password, user.PasswordHash, user.PasswordSalt))
+            else if (!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
             {
                 response.Success = false;
                 response.Message = "Wrong password";
@@ -130,7 +131,11 @@ namespace JAP_Task_1_MoviesApi.Services.AuthService
                 new Claim(ClaimTypes.Name, user.Username)
             };
 
-            var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
+            SymmetricSecurityKey key = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:Token").Value)
+            );
+
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {

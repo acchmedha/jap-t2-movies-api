@@ -10,6 +10,6 @@ namespace JAP_Task_1_MoviesApi.Services.AuthService
     public interface IAuthService
     {
         Task<ServiceResponse<int>> Register(User user, string password);
-        Task<ServiceResponse<LoginDto>> Login(LoginDataDto loginData);
+        Task<ServiceResponse<LoginDto>> Login(string username, string password);
     }
 }
