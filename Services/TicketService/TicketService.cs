@@ -14,7 +14,7 @@ namespace JAP_Task_1_MoviesApi.Services.TicketService
     public class TicketService : ITicketService
     {
         private readonly ApplicationDbContext _context;
-        private IHttpContextAccessor _httpContextAccessor;
+        private readonly IHttpContextAccessor _httpContextAccessor;
         public TicketService(ApplicationDbContext context, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;

@@ -1,4 +1,5 @@
-﻿using JAP_Task_1_MoviesApi.Models;
+﻿using JAP_Task_1_MoviesApi.DTO;
+using JAP_Task_1_MoviesApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ namespace JAP_Task_1_MoviesApi.Services.AuthService
 {
     public interface IAuthService
     {
-        string CreateToken(User user);
+        Task<ServiceResponse<int>> Register(User user, string password);
+        Task<ServiceResponse<LoginDto>> Login(LoginDataDto loginData);
     }
 }
