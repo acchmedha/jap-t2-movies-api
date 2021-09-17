@@ -13,13 +13,13 @@ using System.Threading.Tasks;
 
 namespace JAP_Task_1_MoviesApi.Services.MovieService
 {
-    public class MovieRepository : IMovieService
+    public class MovieService : IMovieService
     {
 
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
 
-        public MovieRepository(ApplicationDbContext context, IMapper mapper)
+        public MovieService(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;

@@ -17,7 +17,7 @@ namespace JAP_Task_1_MoviesApi.Extensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
         {
-            services.AddScoped<IMovieService, MovieRepository>();
+            services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IRatingService, RatingService>();
             services.AddScoped<IReportsService, ReportsService>();
